@@ -1,0 +1,145 @@
+body {
+    background-color: #d6d4d0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head {
+    display: flex;
+    align-items: flex-end;
+}
+
+.head h1,
+.head h3 {
+    margin: 0;
+}
+
+.navigation {
+    margin-top: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: black;
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
+
+.navigation ul a {
+    text-decoration: none;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 1px red solid;
+}
+
+.navigation ul a:hover {
+    border: 1px #fff solid;
+    border-radius: 5px;
+}
+/* Footer */
+footer {
+    background-color: #cec7ba;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content .about {
+    background-color: brown;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-head {
+    flex: 2;
+}
+
+.content .footer-head .up {
+    display: flex;
+    gap: 10px;
+}
+
+.gap {
+    flex: 1;
+}
+
+.pic {
+    width: 50px;
+    height: 50px;
+}
+
+.icon-soc {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-item a {
+    margin: 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.bg-banner {
+    background-color: #65a49b;
+}
+
+.bg-banner .banner {
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    display: inline-block;
+    background-color: red;
+    margin-bottom: 40px;
+    border-radius: 15px 3px;
+}
+/* Section */
+.dad {
+    display: flex;
+}
+
+.dad .cont-left {
+    flex: 2;
+}
+
+.dad .cont-right {
+    flex: 1;
+}
+
+.dad .cont-right .spe {
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    background-color: yellow;
+}
+
+.box {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
